@@ -16,7 +16,9 @@ import java.util.Scanner;
 		cc.adicionarPorPosicao(c2, 1);
 
 		System.out.println(Arrays.toString(cc.listarContsa()));
-		System.out.println(cc.procurarConta("Fulamo"));
+		System.out.println(cc.procurarConta("Fulano"));
 		}
+
+		
 		
 	}
