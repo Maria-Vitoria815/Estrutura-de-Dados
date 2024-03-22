@@ -1,0 +1,17 @@
+import revisaoBanco.Conta;
+
+public class CadastrarConta{
+
+    private Conta[]contas = new Conta[5];
+    private int total = 0;
+
+    public void adicionarConta(Conta c){
+        contas[total] = c;
+        total++
+    }
+
+    public void adicionarPosicao(Conta c){
+        
+
+    }
+}

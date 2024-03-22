@@ -1,0 +1,10 @@
+package questaoBanco;
+
+public class Conta{
+
+private String nome;
+private double valor;
+
+
+
+}
