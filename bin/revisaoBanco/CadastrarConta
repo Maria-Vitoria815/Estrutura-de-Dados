@@ -11,7 +11,12 @@ public class CadastrarConta{
     }
 
     public void adicionarPosicao(Conta c){
-        
+        for(int i = this.total-1; i>=posicao; i--){
+            this.contas[i+1] = this.contas[i];
+        }
+
+        this.contas[posicao] = c;
+        this.total++;
 
     }
 }
