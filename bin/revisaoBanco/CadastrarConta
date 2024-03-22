@@ -7,7 +7,7 @@ public class CadastrarConta{
 
     public void adicionarConta(Conta c){
         contas[total] = c;
-        total++
+        total++;
     }
 
     public void adicionarPosicao(Conta c){
