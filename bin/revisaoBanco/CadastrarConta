@@ -36,7 +36,13 @@ public class CadastrarConta{
        System.out.println("Conta removida com sucesso!");
     }
 
+     private public aumentarVetro(){
 
+        Conta[]newContas = newConta[this.contas.length*2];
+        System.arraycapy(this.contas, newContas, 0, this.conta.length);
+        this.contas = newContas;
+
+     }
 
     
 
