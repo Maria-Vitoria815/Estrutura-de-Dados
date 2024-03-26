@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Professor
- *
- */
-module Vetores {
-}
